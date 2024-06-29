@@ -1,4 +1,5 @@
 import "../styles/Navbar.css";
+import CartWidget from "./CartWidget";
 
 // Necesario <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> para usar los iconos
 const Navbar = () => {
@@ -17,14 +18,16 @@ const Navbar = () => {
 
         <nav className="navbar">
           <a href="#" style={{ "--i": 0 }}>
-            About
+            Hombres
           </a>
           <a href="#" style={{ "--i": 1 }}>
-            Services
+            Mujeres
           </a>
           <a href="#" style={{ "--i": 2 }}>
-            Contact
+            Otros
           </a>
+
+          <CartWidget />
         </nav>
       </header>
     </>
