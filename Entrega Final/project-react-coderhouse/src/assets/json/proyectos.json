@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Servicio apoyo a la Planificación Minera PMChS Nivel 2",
+    "description": "Servicio de apoyo a la planificación minera en nivel 2, incluye la generación de un modelo geológico, modelo de bloques, diseño de mina, programación de mina y diseño de infraestructura.",
+    "image": "https://hectorelmago.github.io/HectorMissene/_astro/FEL2A-PMChS.DR0ywYyo_jk9pU.webp",
+    "price": 50000,
+    "stock": 2,
+    "category": "Planificacion"
+  },
+  {
+    "id": 2,
+    "title": "Estudio Andina Subterranea FEL1",
+    "description": "Estudio de perfil de mina subterránea en Andina, incluye la generación de un modelo geológico, modelo de bloques, diseño de mina, programación de mina y diseño de infraestructura.",
+    "image": "https://hectorelmago.github.io/HectorMissene/_astro/FEL1Andina.Cb9_QJ3R_Z1WtaOG.webp",
+    "price": 100000,
+    "stock": 5,
+    "category": "Planificacion"
+  },
+  {
+    "id": 3,
+    "title": "Ingenieria de Prefactibilidad SLS",
+    "description": "Estudio de prefactibilidad por el método SLS, incluye la generación de un modelo geológico, modelo de bloques, diseño de mina, programación de mina y diseño de infraestructura.",
+    "image": "https://hectorelmago.github.io/HectorMissene/_astro/MantosDeLaLuna.DivYMJHW_Z4gdru.webp",
+    "price": 20000,
+    "stock": 10,
+    "category": "Planificacion"
+  },
+  {
+    "id": 4,
+    "title": "Analisis estrategico Pique Subterrraneo",
+    "description": "Estudio de análisis estratégico para la construcción de un pique subterráneo, incluye la generación de un modelo geológico, modelo de bloques, diseño de mina, programación de mina y diseño de infraestructura.",
+    "image": "https://hectorelmago.github.io/HectorMissene/_astro/PiquePMChS.Krff0gk8_Z122P2q.webp",
+    "price": 5000,
+    "stock": 3,
+    "category": "Planificacion"
+  },
+  {
+    "id": 5,
+    "title": "Automatización de resultados desde Excel a PBI",
+    "description": "Automatización de resultados desde Excel a Power BI, este desarrollo permite la actualización de los resultados de un archivo Excel a un dashboard en Power BI.",
+    "image": "https://hectorelmago.github.io/HectorMissene/_astro/AMSACDCB.bLdtH3Oo_twuq.webp",
+    "price": 2000,
+    "stock": 5,
+    "category": "Desarrollos"
+  },
+  {
+    "id": 6,
+    "title": "Desarrollo de dashboards Power BI",
+    "description": "Desarrollo de dashboards en Power BI, con la finalidad de visualizar los resultados de la empresa en tiempo real.",
+    "image": "https://hectorelmago.github.io/HectorMissene/_astro/BIPN.C1cL4nE1_Z2t9tSH.webp",
+    "price": 1500,
+    "stock": 10,
+    "category": "Desarrollos"
+  },
+  {
+    "id": 7,
+    "title": "Diversos programas de Automatización",
+    "description": "Desarrollo de programas de automatización en Python, VBA, R, entre otros.",
+    "image": "https://hectorelmago.github.io/HectorMissene/_astro/Automation.BsTv6qzD_ZAn8bX.webp",
+    "price": 1000,
+    "stock": 10,
+    "category": "Desarrollos"
+  }
+]
