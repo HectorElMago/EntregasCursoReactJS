@@ -6,6 +6,13 @@
 
 Este proyecto utiliza YARN en lugar de NPM. Aquí tienes la equivalencia de comandos:
 
+- **Instalar YARN con NPM:**
+
+  ```bash
+  npm install -g yarn
+
+  ```
+
 - **Instalar las dependencias:**
 
   ```bash
