@@ -1,9 +1,22 @@
-import { useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import ItemCount from "./ItemCount";
 import { Link } from "react-router-dom";
+import { CartContext } from "../context/CartContext";
 
 const Item = ({ item }) => {
-  const [showMore, setShowMore] = useState(false);
+  const { cart } = useContext(CartContext);
+  const [stock, setStock] = useState(0);
+
+  useEffect(() => {
+    const productInCart = cart.find((product) => product.id === item.id);
+    if (productInCart) {
+      setStock(productInCart.stock - productInCart.quantity);
+    }
+  }, [cart, item.id]);
+
+  const isInCart = (productId) => {
+    return cart.some((product) => product.id === productId);
+  };
 
   return (
     <>
@@ -30,9 +43,11 @@ const Item = ({ item }) => {
           >
             {item.price} USD
           </p>
-          <p className="card-text">Stock: {item.stock}</p>
+          <p className="card-text">
+            Stock: {isInCart(item.id) ? stock : item.stock}
+          </p>
         </div>
-        <ItemCount stock={item.stock} />
+        <ItemCount stock={isInCart(item.id) ? stock : item.stock} item={item} />
 
         <div style={{ marginTop: "1rem" }}>
           <Link to={`/item/${item.id}`} className="btn btn-primary">

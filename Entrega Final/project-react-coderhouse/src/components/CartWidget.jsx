@@ -1,15 +1,18 @@
-import { useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import "../styles/CartWidget.css";
+import { CartContext } from "../context/CartContext";
 
 const CartWidget = () => {
-  const [cart, setCart] = useState(0);
+  const { cart } = useContext(CartContext);
 
   return (
     <>
       <a className="bx bx-cart-alt">
-        <div className="circle">
-          <div className="number">{cart}</div>
-        </div>
+        {cart.length > 0 && (
+          <div className="circle">
+            <div className="number">{cart.length}</div>
+          </div>
+        )}
       </a>
     </>
   );

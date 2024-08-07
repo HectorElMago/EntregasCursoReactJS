@@ -1,8 +1,12 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { CartContext } from "../context/CartContext";
 
 const ItemCount = (props) => {
+  const { addToCart } = useContext(CartContext);
+
   const [contador, setContador] = useState(0);
   const [stock, setStock] = useState(props.stock);
+  const [item, setItem] = useState(props.item);
 
   const sumar = () => {
     if (contador < stock) {
@@ -33,6 +37,7 @@ const ItemCount = (props) => {
   const onAdd = () => {
     if (stock > 0 && contador > 0) {
       setStock(stock - contador);
+      addToCart(item, contador);
       Toastify({
         text: `Se han agregado ${contador} productos al carrito`,
         duration: 3000,

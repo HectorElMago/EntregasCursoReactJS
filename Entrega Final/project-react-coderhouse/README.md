@@ -1,8 +1,11 @@
-# React + Vite
+### Entrega Proyecto Final Curso Coderhouse ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Alumno: Héctor Missene
 
-Currently, two official plugins are available:
+# Instrucciones y comentarios:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Utilice YARN en vez de NPM, la equivalencia de comandos es la siguiente:
+NPM => YARN
+NPM RUN DEV => YARN DEV
+
+ItemDetail.jsx contiene ItemQuantitySelector, Description y AddItemButton pero no desglosado en diferentes componentes, es un Todo en Uno, espero que no sea un problema.

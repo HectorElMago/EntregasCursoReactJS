@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <header className="header">
         <Link to="/" className="logo">
-          Logo
+          Proyectos HYM
         </Link>
 
         <input type="checkbox" id="check" />
@@ -21,7 +21,9 @@ const Navbar = () => {
           <NavLink to={"/category/Planificacion"}>Planificación</NavLink>
           <NavLink to={"/category/Desarrollos"}>Desarrollos</NavLink>
 
-          <CartWidget />
+          <Link to="/cart">
+            <CartWidget />
+          </Link>
         </nav>
       </header>
     </>
