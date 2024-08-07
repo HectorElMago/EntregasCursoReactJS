@@ -13,16 +13,16 @@ Este proyecto utiliza YARN en lugar de NPM. Aquí tienes la equivalencia de coma
 
   ```
 
-- **Instalar las dependencias:**
+- **Instalar las dependencias del proyecto:**
 
   ```bash
-  yarn => npm install
+  yarn //Equivale a npm install
 
   ```
 
 - **Iniciar el proyecto en modo desarrollo:**
   ```bash
-  yarn dev => npm run dev
+  yarn dev //Equivale a npm run dev
   ```
 
 ItemDetail.jsx contiene ItemQuantitySelector, Description y AddItemButton pero no desglosado en diferentes componentes, es un Todo en Uno, espero que no sea un problema.
