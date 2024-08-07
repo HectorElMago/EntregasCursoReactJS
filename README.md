@@ -1,11 +1,21 @@
-### Entrega Proyecto Final Curso Coderhouse ReactJS
+# Entrega del Proyecto Final del Curso de ReactJS - Coderhouse
 
 ## Alumno: Héctor Missene
 
-# Instrucciones y comentarios:
+### Instrucciones de Instalación y Ejecución
 
-Utilice YARN en vez de NPM, la equivalencia de comandos es la siguiente:
-NPM => YARN
-NPM RUN DEV => YARN DEV
+Este proyecto utiliza YARN en lugar de NPM. Aquí tienes la equivalencia de comandos:
+
+- **Instalar las dependencias:**
+
+  ```bash
+  yarn => npm install
+
+  ```
+
+- **Iniciar el proyecto en modo desarrollo:**
+  ```bash
+  yarn dev => npm run dev
+  ```
 
 ItemDetail.jsx contiene ItemQuantitySelector, Description y AddItemButton pero no desglosado en diferentes componentes, es un Todo en Uno, espero que no sea un problema.
